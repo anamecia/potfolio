@@ -1,4 +1,5 @@
-.app-conatiner{
+.app-container{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
