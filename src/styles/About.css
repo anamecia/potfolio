@@ -1,0 +1,19 @@
+.about-main-container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+#bio{
+    margin-right: 8%;
+}
+
+#photo{
+    border-radius: 100%;
+}

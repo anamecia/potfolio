@@ -7,9 +7,6 @@ import Contacts from './components/Contacts'
 import AppCss from './App.css'
 
 
-
-import './App.css';
-
 function App() {
   return (
     <div className='app-container'>
