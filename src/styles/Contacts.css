@@ -14,17 +14,21 @@
     width:85% ;
 }
 
+.contacts-subcontainer h3{
+    color: white
+}
+
 .links-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 60%;
-    min-height: 50%;
+    height: 20%;
 }
 
 .links-container a{
-    height:15%
+    height:50%
 }
 
 .link{
