@@ -34,3 +34,19 @@
 .link{
     height: 100%;
 }
+
+.greeting-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height:25%;
+    width: 18%;
+}
+
+.greeting{
+    height:20%
+}
+
+.greeting-container p{
+    color: white;
+}
