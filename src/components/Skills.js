@@ -20,7 +20,7 @@ import SkillsCss from '../styles/Skills.css'
 
 const Skills = () => {
     return(
-        <div className='skills-main-container' style={{backgroundColor: "lightblue"}}>
+        <div className='skills-main-container'>
             <div className='skills-container'>
             <h1 id='section-title'>Skills</h1>
             <h3>Front End</h3>

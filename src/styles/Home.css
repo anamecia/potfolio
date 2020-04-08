@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+    background-color: #329D9C;
 }
 
 .home-container h1{
