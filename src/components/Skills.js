@@ -12,9 +12,6 @@ import sqliteIcon from '../assets/images/sqlite-icon.svg'
 import postgresqlIcon from '../assets/images/postgresql-icon.svg'
 import mongodbIcon from '../assets/images/mongodb-icon.svg'
 import figmaIcon from '../assets/images/figma-icon.svg'
-
-
-
 import SkillsCss from '../styles/Skills.css'
 
 
