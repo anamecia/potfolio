@@ -12,7 +12,7 @@ const NavBar = () => {
             <div className='link-container'>
                 <Link
                     activeClass="active"
-                    to="section1"
+                    to="skills"
                     spy={true}
                     smooth={true}
                     offset={-70}

@@ -8,11 +8,11 @@ const Projects = () => {
                 <h1>Projects</h1>
                 <div className='projects-container'>
                     <div className='project'>
-                        {/* <video controls width="500">
+                        <video controls width="500">
                             <source src='https://www.youtube.com/watch?v=ImWQ35hdiJg&t=1s'/>
                             <source src='https://www.youtube.com/watch?v=xMCj48WSKLc'/>
                             <source src='https://www.youtube.com/watch?v=ImWQ35hdiJg'/>
-                        </video> */}
+                        </video>
                     </div>
                 </div>
             </div>
