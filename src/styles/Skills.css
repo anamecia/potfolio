@@ -3,6 +3,8 @@
     justify-content: center;
     height: 100vh;
     background-color: #56C596;
+    clip-path: polygon(0 0, 100% 10vh, 100% 100%, 0 90vh);
+
 }
 
 .skills-container{

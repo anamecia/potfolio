@@ -4,6 +4,7 @@
     justify-content: center;
     width: 100%;
     background-color: #7be495;
+    clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
 }
 
 .contacts-subcontainer{
