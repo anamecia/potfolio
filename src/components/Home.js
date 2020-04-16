@@ -3,9 +3,13 @@ import '../styles/Home.css'
 
 const Home = () => {
     return(
-        <div className='home-container'>
-            <h1>Hi, I am Ana</h1>
-            <h1>Full Stack Developer</h1>
+        <div className='home-main-container'>
+            <div className='home-sub-container'>
+                <h1>
+                    <span>Hi! I am Ana</span> 
+                    <span>Full Stack Developer</span>
+                </h1>
+            </div>
         </div>
     )
 }
