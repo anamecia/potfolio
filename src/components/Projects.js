@@ -1,18 +1,24 @@
 import React from 'react'
 import '../styles/Projects.css'
+import Bettereads from '../assets/images/bettereads.png'
 
 const Projects = () => {
     return(
         <div className='projects-main-container'>
             <div className='projects-subcontainer'>
                 <h1>Projects</h1>
-                <div className='projects-container'>
+                <div className='projects-list'>
+                <div className='project'>
+                        <h3>Open Air</h3>
+                        <a href='https://youtu.be/xMCj48WSKLc'><img className='project-image' src={Bettereads}/></a>
+                    </div>
                     <div className='project'>
-                        <video controls width="500">
-                            <source src='https://www.youtube.com/watch?v=ImWQ35hdiJg&t=1s'/>
-                            <source src='https://www.youtube.com/watch?v=xMCj48WSKLc'/>
-                            <source src='https://www.youtube.com/watch?v=ImWQ35hdiJg'/>
-                        </video>
+                        <h3>Bettereads</h3>
+                        <a href='https://youtu.be/xMCj48WSKLc'><img className='project-image' src={Bettereads}/></a>
+                    </div>
+                    <div className='project'>
+                        <h3>FOODy</h3>
+                        <a href='https://youtu.be/xMCj48WSKLc'><img className='project-image' src={Bettereads}/></a>
                     </div>
                 </div>
             </div>

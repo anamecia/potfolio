@@ -17,7 +17,8 @@
 
 .home-sub-container h1 span{
     display: block;
-    margin: 5% 0;
+    color: white;
+    margin: 4% 0;
 }
 .home-sub-container h1{
     font-size: 5rem;
