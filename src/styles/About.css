@@ -7,13 +7,16 @@
 .about-container{
     display: flex;
     align-items: center;
-    width: 75%;
+    justify-content: space-between;
+    width: 85vw;
 }
 
 #bio{
-    margin-right: 8%;
+   padding: 2rem;
+   font-size: 1.4rem;
 }
 
 #photo{
+    padding: 2rem;
     border-radius: 100%;
 }
