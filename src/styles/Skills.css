@@ -1,30 +1,38 @@
 .skills-main-container{
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     min-height: 100vh;
     background-color: #56C596;
     clip-path: polygon(0 0, 100% 10vh, 100% 100%, 0 90vh);
-
 }
 
 .skills-container{
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 85vw;
     height: 90vh;
+    color: white;
 }
+
 .skills-subcontainer{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    height: 15%;
+    height: 12rem;
     width: 95%;
 }
 
-#section-title{
-    text-align: center;
+.skills-title{
+    font-size: 3rem;
+    text-align: center;padding: 2rem;
+    
+}
+
+.skills-type{
+    font-size: 1.6rem;
 }
 
 .skill{

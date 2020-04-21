@@ -19,8 +19,8 @@ const Skills = () => {
     return(
         <div className='skills-main-container' id='skills'>
             <div className='skills-container'>
-            <h1 id='section-title'>Skills</h1>
-            <h3>Front End</h3>
+            <h2 className='skills-title'>Skills</h2>
+            <h3 className='skills-type'>Front End</h3>
             <div className='skills-subcontainer'>
                 <img className='skill' src={htmlIcon} alt='react-logo'/>
                 <img className='skill' src={cssIcon} alt='css-logo'/>
@@ -28,14 +28,14 @@ const Skills = () => {
                 <img className='skill' src={reactIcon} alt='react-logo'/>
                 <img className='skill' src={reduxIcon} alt='redux-logo'/>
             </div>
-            <h3>Back End</h3>
+            <h3 className='skills-type'>Back End</h3>
                 <div className='skills-subcontainer'>
                     <img className='skill' src={nodeIcon} alt='node-logo'/>
                     <img className='skill' src={rubyIcon} alt='ruby-logo'/>
                     <img className='skill' src={railsIcon} alt='rails-logo'/>
                 </div>
 
-            <h3>Other</h3>
+            <h3 className='skills-type'>Other</h3>
                 <div className='skills-subcontainer'>
                     <img className='skill' src={githubIcon} alt='github-logo'/>
                     <img className='skill' src={sqliteIcon} alt='sqlite-logo'/>
