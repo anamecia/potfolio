@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    min-height: 10vh;
     background-color:rgb(56, 173, 171);
     color:white;
 }
@@ -13,12 +13,13 @@
 }
 
 .logo-container h1{
-    margin-left: 10%;
+    margin-left: 3.5rem;
 }
 
 .link-container{
     display:flex;
     justify-content: space-around;
     flex-grow: 1;
+    font-size: 1.6rem;
 }
 
