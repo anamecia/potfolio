@@ -12,18 +12,18 @@
     flex-direction: column;
     justify-content: flex-end;
     width: 90vw;
-    height: 65vh;
+    height: 60vh;
 }
 
 .home-sub-container h1 span{
     display: block;
     color: white;
-    margin: 4% 0;
+    margin: 4rem 0;
 }
 .home-sub-container h1{
-    font-size: 5rem;
-    font-weight: 700;
-    letter-spacing: 0.3rem;
+    font-size: 7rem;
+    font-weight: 900;
+    letter-spacing: .5rem;
     transform: scaleY(1.5);
     animation: moveUp 1s .5s ease-out ; 
     animation-fill-mode: backwards;
@@ -32,10 +32,10 @@
 @keyframes moveUp{
     0%{
         opacity: 0;
-        transform: translateY(25%) scaleY(1.2);
+        transform: translateY(25%) scaleY(1.5);
     }
     100%{
         opacity: 1;
-        transform: translateY(0) scaleY(1.2);
+        transform: translateY(0) scaleY(1.5);
     }
 }
