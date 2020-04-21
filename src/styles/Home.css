@@ -23,9 +23,9 @@
 .home-sub-container h1{
     font-size: 5rem;
     font-weight: 700;
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     letter-spacing: 0.3rem;
-    transform: scaleY(1.2);
+    transform: scaleY(1.5);
     animation: moveUp 1s .5s ease-out ; 
     animation-fill-mode: backwards;
 }
