@@ -4,7 +4,7 @@ import Bettereads from '../assets/images/bettereads.png'
 
 const Projects = () => {
     return(
-        <div className='projects-main-container'>
+        <div className='projects-main-container' id='projects'>
             <div className='projects-subcontainer'>
                 <h1>Projects</h1>
                 <div className='projects-list'>
